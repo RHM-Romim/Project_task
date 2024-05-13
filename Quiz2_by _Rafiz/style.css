@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 body {
@@ -20,13 +24,13 @@ body {
 .wrapper {
     width: 420px;
     background: transparent;
-    border: 2px solid rgba(255,255,255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #ffffff;
     border-radius: 10px;
-    padding: 30px 40px ;
-   
+    padding: 30px 40px;
+
 }
 
 .wrapper h1 {
@@ -54,37 +58,42 @@ body {
     padding: 20px 45px 20px 20px;
 }
 
-.input_box input::placeholder{
+.input_box input::placeholder {
     color: #ffffff;
 }
 
-.input_box i{
+.input_box i {
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
 }
-.remember_forgot{
+
+.remember_forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
 }
 
-.remember_forgot label input{
+.remember_forgot label input {
     accent-color: #fff;
     margin-right: 3px;
 }
 
-.remember_forgot a{
+.remember_forgot a {
     color: #fff;
     text-decoration: none;
 }
-.remember_forgot a:hover{
+
+.remember_forgot a:hover {
     text-decoration: underline;
 }
-.btn{
-    width: 100%;
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 50%;
     height: 450%;
     background: #fff;
     border: none;
@@ -93,32 +102,33 @@ body {
     box-shadow: 0 0 10px rgb(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
-    color:#333;
+    color: #000000;
     font-weight: 600;
 }
 
-.wrapper .resister_link{
+.wrapper .resister_link {
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
-    
-    
+
+
 }
 
-.resister_link p a{
+.resister_link p a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 
 }
 
-.resister_link p a:hover{
+.resister_link p a:hover {
     text-decoration: underline;
 }
 
-.resister_link a{
+.resister_link a {
     color: #c6d867;
 }
-.remember_forgot a{
+
+.remember_forgot a {
     color: #c6d867;
 }
